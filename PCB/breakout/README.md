@@ -22,7 +22,7 @@ connectors:
 
 ## Files
 
-`gebbers/` (gerbers + drill + flying-probe JSON), `SCH_Breakout_*.pdf`,
+`gerbers/` (gerbers + drill + flying-probe JSON), `SCH_Breakout_*.pdf`,
 `BOM_Breakout_*.xlsx`, `P1.dxf` (outline), `breakout_3d/` (3D model).
 
 ## Status

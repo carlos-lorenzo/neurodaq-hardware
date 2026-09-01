@@ -33,9 +33,9 @@ Two JST XH headers cable to the breakout: a 10-way (E1–E8, REF, GND) and a 5-w
 
 ## Files
 
-`gebbers/` (gerbers + drill + flying-probe JSON), `SCH_Neurodaq_*.pdf`,
+`gerbers/` (gerbers + drill + flying-probe JSON), `SCH_Neurodaq_*.pdf`,
 `BOM_Neurodaq_*.xlsx`, `P1.dxf` (outline), `neurodaq_3d/` (3D model). To order, follow
-`gebbers/How-to-order-PCB.txt`.
+`gerbers/How-to-order-PCB.txt`.
 
 ## Status
 
