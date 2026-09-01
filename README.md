@@ -35,13 +35,13 @@ QVAR×2 and GND to two JST XH connectors (10-way + 5-way) that cable to the carr
 
 | File / dir | Contents |
 |---|---|
-| `gebbers/` | Gerbers, `.DRL` drill files, flying-probe test JSON, `How-to-order-PCB.txt` |
+| `gerbers/` | Gerbers, `.DRL` drill files, flying-probe test JSON, `How-to-order-PCB.txt` |
 | `SCH_*.pdf` | Schematic export |
 | `BOM_*.xlsx` | Bill of materials |
 | `P1.dxf` | Board outline |
 | `<board>_3d/` | `.obj` + `.mtl` 3D board model |
 
-> `gebbers/` is spelled that way in-tree (EasyEDA's export folder); it is the gerber
+> `gerbers/` (EasyEDA's export folder); it is the gerber
 > set. To order, follow `How-to-order-PCB.txt` or upload the folder to any fab.
 
 ## Mechanical / enclosure
