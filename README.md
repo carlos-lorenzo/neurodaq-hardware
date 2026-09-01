@@ -8,6 +8,10 @@ BOMs and 3D models are committed here, so **both boards are orderable as-is**.
 
 ### Main carrier (`PCB/main/`)
 
+
+![main_pcb](images/pcb_front.jpg)
+![main_pcb](images/pcb_back.jpg)
+
 The analog front-end and MCU carrier. **4-layer** (inner layers present in the gerber
 set).
 
@@ -48,10 +52,8 @@ and electrode parts adapted from the OpenBCI Ultracortex Mark IV (see Attributio
 | Part | Files | Origin |
 |---|---|---|
 | `frame_front`, `frame_back_side`, `frame_bottom`, `frame_lid` | DWG + STEP + STL | **Author-designed** electronics enclosure |
-| `M4_{Small,Medium,Large}_{Front,Back}` | STL | Ultracortex Mark IV band |
-| `M4_Wire_Clip` | STL | Ultracortex Mark IV |
-| `electrode_holder` | STL | Mark IV, **modified**: adds studs to melt over and secure a snap connector |
-| `electrode_screw` | DWG + STEP + STL | Author-designed |
+| `M4_{Small,Medium,Large}_{Front,Back}`,  | STL | Ultracortex Mark IV |
+| `electrode_screw` | DWG + STEP + STL | Ultracortex Mark IV, **modified**: adds studs to melt over and secure a snap connector |
 
 The file-format split is provenance, not oversight: author-designed parts ship editable
 DWG + STEP + STL; Mark IV-derived parts are STL-only because that is how they were
@@ -60,28 +62,16 @@ obtained.
 ## Attribution — OpenBCI Ultracortex Mark IV
 
 The band parts (`M4_*`), the wire clip, and the electrode holder derive from the
-[OpenBCI Ultracortex Mark IV](https://github.com/OpenBCI/Ultracortex).
+[OpenBCI Ultracortex Mark IV](https://github.com/OpenBCI/Ultracortex). And are licenced under GPLv3. The relevant files are inside `OpenBCI` subdirectories.
 
-> ⚠️ **Licensing conflict to resolve.** The Ultracortex is licensed **GPLv3**, but this
-> repo is currently MIT. Derivatives of a GPLv3 work generally must be distributed under
-> GPLv3 — a blanket MIT licence over the Mark IV-derived STLs is very likely invalid.
-> Options: (a) move the derived mechanical parts under a GPLv3 `LICENSE` in a
-> subdirectory and keep MIT for your own boards/enclosure, or (b) relicense the whole
-> mechanical set GPLv3. Either way the OpenBCI copyright notice must be preserved.
-> **This needs an explicit decision before public release.**
+
 
 ## Still pending
 
 The editable **EasyEDA project export** (`.epro` / JSON) is the one remaining gap.
 Everything needed to *fabricate* is here; what's missing is what you'd need to *modify*
-the schematic/layout.
+the schematic/layout. Will upload soon. For now here's the [link]( https://oshwlab.com/clorzui/project_mbmhksrb).
 
-## Minor cleanup (noted, not done)
-
-- `gebbers/` → `gerbers/` (typo carried from the export).
-- `STEP/elecectrode_screw.stp` → `electrode_screw.stp`.
-- `PCB/main/neurodaq_3d/neurdaq_3d.obj` drops an `o`.
-- `STL/electrode_holder.STL` uses an uppercase extension unlike its siblings.
 
 ## Licence
 
