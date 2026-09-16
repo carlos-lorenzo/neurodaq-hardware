@@ -37,6 +37,7 @@ Two JST XH headers cable to the breakout: a 10-way (E1–E8, REF, GND) and a 5-w
 `BOM_Neurodaq_*.xlsx`, `P1.dxf` (outline), `neurodaq_3d/` (3D model). To order, follow
 `gerbers/How-to-order-PCB.txt`.
 
-## Status
+## Disclaimer
 
-Fabricated and bring-up tested. Editable EasyEDA source export pending.
+The schematic shown isn't the exact same one as the one I have ordered as I fixed a small power issues (see YouTube video for more info). The only thing that changed was moving ESP power from 5V pin to 3.3V.
+

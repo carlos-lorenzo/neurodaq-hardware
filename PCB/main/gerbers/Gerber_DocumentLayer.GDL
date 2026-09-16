@@ -1,5 +1,5 @@
 G04 Layer: DocumentLayer*
-G04 EasyEDA Pro v3.2.148, 2026-09-01 12:52:47*
+G04 EasyEDA Pro v3.2.149, 2026-09-16 16:46:42*
 G04 Gerber Generator version 0.3*
 G04 Scale: 100 percent, Rotated: No, Reflected: No*
 G04 Dimensions in millimeters*
@@ -15,7 +15,7 @@ G04 Copper Areas: 0*
 %ADD12C,0.3*%
 %ADD13C,0.254*%
 %ADD14C,0.5*%
-%ADD15C,0.2032*%
+%ADD15C,0.2034*%
 %ADD16C,0.2*%
 G75*
 
