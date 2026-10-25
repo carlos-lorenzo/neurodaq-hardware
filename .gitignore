@@ -2,3 +2,6 @@
 *.sch-bak
 *.prl
 *.tmp
+
+# KiCad history
+.history/

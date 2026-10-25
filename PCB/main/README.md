@@ -27,9 +27,12 @@ for the rails to settle before configuring the AFE.
 
 ## Connectors
 
-Two JST XH headers cable to the breakout: a 10-way (E1–E8, REF, GND) and a 5-way
-(QVAR ×2, GND, …). Full pin assignment lives with the breakout board — see
-`../breakout/README.md`.
+Two JST XH headers cable to the breakout: a 10-way
+(CN1: `1 VOUT_DRL, 2–9 VIN_E8…VIN_E1, 10 VIN_ER` — note reversed channel order)
+and a 5-way (CN2: `+2V5, −2V5, QVAR1, QVAR2, AGND`). Pin order is mirrored vs
+the breakout footprint, so the cable assembly must compensate (breakout pin `i`
+↔ main pin `11−i`). Full cable map + warnings live with the breakout board —
+see `../breakout/README.md`.
 
 ## Files
 

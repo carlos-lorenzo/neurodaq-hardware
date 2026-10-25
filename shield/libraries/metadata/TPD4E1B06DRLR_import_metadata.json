@@ -1,0 +1,112 @@
+{
+  "part_name": "TPD4E1B06DRLR",
+  "library_name": "Project_Components",
+  "symbol_library_name": "Project_Components",
+  "footprint_library_name": "Project_Components",
+  "project_root": "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield",
+  "source_zip": "/home/carlos/Downloads/kicad_zips/TPD4E1B06DRLR.zip",
+  "imported_at": "2026-10-25T22:25:01",
+  "imported_assets": {
+    "selected_symbol_library": "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/Project_Components.kicad_sym",
+    "selected_footprint_library": "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/Project_Components.pretty",
+    "selected_model_library": "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/3dmodels",
+    "symbol_libraries": [
+      "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/Project_Components.kicad_sym"
+    ],
+    "source_symbol_libraries": [
+      "TPD4E1B06DRLR.kicad_sym"
+    ],
+    "merged_symbols": [
+      {
+        "target_symbol_library": "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/Project_Components.kicad_sym",
+        "merged_symbol_names": [
+          "TPD4E1B06DRLR"
+        ],
+        "replaced_existing_symbols": [],
+        "updated": true,
+        "message": "Merged 1 symbol(s)."
+      }
+    ],
+    "footprints": [
+      "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/Project_Components.pretty/SOT50P160X60-6N.kicad_mod"
+    ],
+    "models_3d": [
+      "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/3dmodels/TPD4E1B06DRLR.step"
+    ],
+    "datasheets": [],
+    "source_zip": "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/source_zips/TPD4E1B06DRLR_TPD4E1B06DRLR.zip",
+    "metadata": null,
+    "3d_path_fix": {
+      "updated_footprints": [
+        "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/Project_Components.pretty/SOT50P160X60-6N.kicad_mod"
+      ],
+      "skipped_footprints": [],
+      "available_models": [
+        "TPD4E1B06DRLR.step"
+      ],
+      "model_matches": [
+        {
+          "footprint": "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/Project_Components.pretty/SOT50P160X60-6N.kicad_mod",
+          "model": "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/3dmodels/TPD4E1B06DRLR.step",
+          "score": 10
+        }
+      ]
+    },
+    "library_table_update": {
+      "footprint_table_updated": false,
+      "symbol_tables_updated": [],
+      "symbol_tables_skipped": [
+        "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/Project_Components.kicad_sym"
+      ]
+    },
+    "symbol_footprint_link": [
+      {
+        "symbol_library": "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/Project_Components.kicad_sym",
+        "updated": true,
+        "symbol_name": "TPD4E1B06DRLR",
+        "default_footprint": "Project_Components:SOT50P160X60-6N",
+        "footprint_filters": [
+          "Project_Components:SOT50P160X60-6N"
+        ],
+        "ki_fp_filters_value": "Project_Components:SOT50P160X60-6N",
+        "filter_mode": "exact",
+        "include_default_in_filters": true,
+        "available_footprints": [
+          "Project_Components:SOT50P160X60-6N"
+        ]
+      }
+    ],
+    "symbol_style_update": {
+      "symbol_library": "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/Project_Components.kicad_sym",
+      "updated": true,
+      "styled_symbol_names": [
+        "TPD4E1B06DRLR"
+      ],
+      "style": {
+        "line_width_mm": 0.254,
+        "line_color": "#840000",
+        "fill_mode": "kicad_default",
+        "fill_color": "#FFFFC2",
+        "font_size_mm": 1.27,
+        "pin_length_mm": 2.54,
+        "use_default_colors": true
+      }
+    },
+    "backups": [
+      "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/backups/2026-10-25_22-25-01/libraries/Project_Components.kicad_sym",
+      "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/backups/2026-10-25_22-25-01/libraries/Project_Components.kicad_sym",
+      "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/backups/2026-10-25_22-25-01/libraries/Project_Components.kicad_sym",
+      "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/backups/2026-10-25_22-25-01/libraries/Project_Components.pretty/SOT50P160X60-6N.kicad_mod",
+      "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/backups/2026-10-25_22-25-01/fp-lib-table",
+      "/home/carlos/dev/neurodaq-env/neurodaq-hardware/shield/libraries/backups/2026-10-25_22-25-01/sym-lib-table"
+    ],
+    "skipped_existing": false,
+    "existing_assets": {
+      "already_exists": false,
+      "source_symbol_names": [
+        "TPD4E1B06DRLR"
+      ],
+      "existing_footprints": []
+    }
+  }
+}

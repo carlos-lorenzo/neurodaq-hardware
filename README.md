@@ -21,7 +21,7 @@ set).
 - **LSM6DSV16X** — 6-axis IMU with QVAR (electrostatic sensing).
 - Per-channel **2.2 kΩ / 1 nF RC** + ESD protection on each electrode input.
 - **DRL / bias drive** for common-mode rejection.
-- An **ESP32-S3-DevKitC-1-N8R2** plugs into 2×22 headers — it is *not* soldered, which
+- An **ESP32-S3** plugs into 2×22 headers — it is *not* soldered, which
   is why no MCU appears in the BOM.
 - `CS2_ADC` / GPIO21 is routed for a **second cascaded ADS1299** that is not populated
   (BOM qty 1) and not driven by firmware.
@@ -40,6 +40,7 @@ QVAR×2 and GND to two JST XH connectors (10-way + 5-way) that cable to the carr
 | `BOM_*.xlsx` | Bill of materials |
 | `P1.dxf` | Board outline |
 | `<board>_3d/` | `.obj` + `.mtl` 3D board model |
+| `shield` | The 16 channel shield (add 8 channels) - under development |
 
 > `gerbers/` (EasyEDA's export folder); it is the gerber
 > set. To order, follow `How-to-order-PCB.txt` or upload the folder to any fab.
